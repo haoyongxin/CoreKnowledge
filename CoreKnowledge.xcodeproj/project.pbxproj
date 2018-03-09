@@ -16,6 +16,10 @@
 		5961AC3A20511698006C5A88 /* CoreKnowledgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC3920511698006C5A88 /* CoreKnowledgeUITests.swift */; };
 		5961AC4A20512540006C5A88 /* CKTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC4920512540006C5A88 /* CKTabbarViewController.swift */; };
 		5961AC4C20512568006C5A88 /* CKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC4B20512568006C5A88 /* CKNavigationController.swift */; };
+		5961AC552051284E006C5A88 /* KCThreadMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC542051284E006C5A88 /* KCThreadMainViewController.swift */; };
+		5961AC5720512862006C5A88 /* KCAnimationMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5620512862006C5A88 /* KCAnimationMainViewController.swift */; };
+		5961AC5920512888006C5A88 /* KCComponentMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5820512888006C5A88 /* KCComponentMainViewController.swift */; };
+		5961AC5B20512896006C5A88 /* KCOtherMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		5961AC3B20511698006C5A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5961AC4920512540006C5A88 /* CKTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKTabbarViewController.swift; sourceTree = "<group>"; };
 		5961AC4B20512568006C5A88 /* CKNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKNavigationController.swift; sourceTree = "<group>"; };
+		5961AC542051284E006C5A88 /* KCThreadMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCThreadMainViewController.swift; sourceTree = "<group>"; };
+		5961AC5620512862006C5A88 /* KCAnimationMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCAnimationMainViewController.swift; sourceTree = "<group>"; };
+		5961AC5820512888006C5A88 /* KCComponentMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCComponentMainViewController.swift; sourceTree = "<group>"; };
+		5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCOtherMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,9 @@
 			children = (
 				5961AC48205124FB006C5A88 /* Navigation */,
 				5961AC47205124ED006C5A88 /* Tabbar */,
-				5961AC1920511698006C5A88 /* AppDelegate.swift */,
+				5961AC4D20512747006C5A88 /* Controller */,
 				5961AC1B20511698006C5A88 /* ViewController.swift */,
+				5961AC1920511698006C5A88 /* AppDelegate.swift */,
 				5961AC1D20511698006C5A88 /* Main.storyboard */,
 				5961AC2020511698006C5A88 /* Assets.xcassets */,
 				5961AC2220511698006C5A88 /* LaunchScreen.storyboard */,
@@ -145,6 +154,49 @@
 				5961AC4B20512568006C5A88 /* CKNavigationController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5961AC4D20512747006C5A88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5961AC5320512828006C5A88 /* Other */,
+				5961AC5220512816006C5A88 /* UI-Component */,
+				5961AC51205127EC006C5A88 /* Animation */,
+				5961AC50205127CC006C5A88 /* Thread */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5961AC50205127CC006C5A88 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				5961AC542051284E006C5A88 /* KCThreadMainViewController.swift */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		5961AC51205127EC006C5A88 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5961AC5620512862006C5A88 /* KCAnimationMainViewController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		5961AC5220512816006C5A88 /* UI-Component */ = {
+			isa = PBXGroup;
+			children = (
+				5961AC5820512888006C5A88 /* KCComponentMainViewController.swift */,
+			);
+			path = "UI-Component";
+			sourceTree = "<group>";
+		};
+		5961AC5320512828006C5A88 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +334,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5961AC4A20512540006C5A88 /* CKTabbarViewController.swift in Sources */,
+				5961AC552051284E006C5A88 /* KCThreadMainViewController.swift in Sources */,
 				5961AC4C20512568006C5A88 /* CKNavigationController.swift in Sources */,
+				5961AC5920512888006C5A88 /* KCComponentMainViewController.swift in Sources */,
 				5961AC1C20511698006C5A88 /* ViewController.swift in Sources */,
+				5961AC5720512862006C5A88 /* KCAnimationMainViewController.swift in Sources */,
+				5961AC5B20512896006C5A88 /* KCOtherMainViewController.swift in Sources */,
 				5961AC1A20511698006C5A88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
