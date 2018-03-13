@@ -34,7 +34,7 @@ class CKTabbarViewController: UITabBarController {
 //            vc.tabBarItem.title = titles[index]
 //            vc.tabBarItem.selectedImage = UIImage(named: selectImages[index])
 //            vc.tabBarItem.image = UIImage(named: images[index])
-            let navigation = UINavigationController(rootViewController: vc)
+            let navigation = CKNavigationController(rootViewController: vc)
             navArray.append(navigation)
         }
         self.viewControllers = navArray

@@ -20,6 +20,10 @@
 		5961AC5720512862006C5A88 /* KCAnimationMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5620512862006C5A88 /* KCAnimationMainViewController.swift */; };
 		5961AC5920512888006C5A88 /* KCComponentMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5820512888006C5A88 /* KCComponentMainViewController.swift */; };
 		5961AC5B20512896006C5A88 /* KCOtherMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */; };
+		598A910F2057AD4400CD884B /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A910E2057AD4400CD884B /* GCDViewController.swift */; };
+		598A91112057AD5400CD884B /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91102057AD5400CD884B /* OperationQueueViewController.swift */; };
+		598A91132057C1DB00CD884B /* SerialDispatchQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */; };
+		598A91152057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91142057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		5961AC5620512862006C5A88 /* KCAnimationMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCAnimationMainViewController.swift; sourceTree = "<group>"; };
 		5961AC5820512888006C5A88 /* KCComponentMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCComponentMainViewController.swift; sourceTree = "<group>"; };
 		5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCOtherMainViewController.swift; sourceTree = "<group>"; };
+		598A910E2057AD4400CD884B /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
+		598A91102057AD5400CD884B /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
+		598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDispatchQueueViewController.swift; sourceTree = "<group>"; };
+		598A91142057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentDispatchQueueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				5961AC542051284E006C5A88 /* KCThreadMainViewController.swift */,
+				598A910D2057AD0100CD884B /* OperationQueue */,
+				598A910C2057ACD300CD884B /* GCD */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -197,6 +207,24 @@
 				5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		598A910C2057ACD300CD884B /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				598A910E2057AD4400CD884B /* GCDViewController.swift */,
+				598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */,
+				598A91142057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		598A910D2057AD0100CD884B /* OperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				598A91102057AD5400CD884B /* OperationQueueViewController.swift */,
+			);
+			path = OperationQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,14 +361,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598A91132057C1DB00CD884B /* SerialDispatchQueueViewController.swift in Sources */,
 				5961AC4A20512540006C5A88 /* CKTabbarViewController.swift in Sources */,
 				5961AC552051284E006C5A88 /* KCThreadMainViewController.swift in Sources */,
+				598A91112057AD5400CD884B /* OperationQueueViewController.swift in Sources */,
 				5961AC4C20512568006C5A88 /* CKNavigationController.swift in Sources */,
 				5961AC5920512888006C5A88 /* KCComponentMainViewController.swift in Sources */,
 				5961AC1C20511698006C5A88 /* ViewController.swift in Sources */,
 				5961AC5720512862006C5A88 /* KCAnimationMainViewController.swift in Sources */,
 				5961AC5B20512896006C5A88 /* KCOtherMainViewController.swift in Sources */,
+				598A91152057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift in Sources */,
 				5961AC1A20511698006C5A88 /* AppDelegate.swift in Sources */,
+				598A910F2057AD4400CD884B /* GCDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

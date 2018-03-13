@@ -8,14 +8,31 @@
 
 import UIKit
 
-class CKNavigationController: UINavigationController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-      
+class CKNavigationController: UINavigationController, UINavigationControllerDelegate {
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    self.view.backgroundColor = UIColor.white
+  }
+  
+  override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    if viewControllers.count == 1 {
+      viewController.hidesBottomBarWhenPushed = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
+    super.pushViewController(viewController, animated: true)
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+  }
+  
+  // MARK: UINavigationControllerDelegate
+  func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+    print("willShow:",viewController)
+  }
+  
+  func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
+    print("didShow:",viewController)
+  }
+  
 }
