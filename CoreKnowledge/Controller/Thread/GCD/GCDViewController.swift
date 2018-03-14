@@ -14,8 +14,24 @@ class GCDViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.view.backgroundColor = UIColor.white
+    self.backItem()
     gcdArray = ["GCD-Serial","GCD-Concurrent"]
     self.installButtons()
+    if let gesture = self.navigationController?.interactivePopGestureRecognizer {
+      print("gesture:",gesture.isEnabled)
+    }
+  }
+  
+  func backItem() {
+    let backButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 44))
+    backButton.setTitle("返回", for: .normal)
+    backButton.setTitleColor(UIColor.red, for: .normal)
+    backButton.addTarget(self, action: #selector(backAction), for: .touchUpInside)
+    self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backButton)
+  }
+  
+  @objc func backAction() {
+    
   }
   
   func installButtons() {

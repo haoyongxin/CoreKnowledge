@@ -19,10 +19,10 @@ class ConcurrentDispatchQueueViewController: UIViewController {
     super.didReceiveMemoryWarning()
   }
   
-  override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    self.navigationController?.setNavigationBarHidden(true, animated: true)
-  }
+//  override func viewWillAppear(_ animated: Bool) {
+//    super.viewWillAppear(animated)
+//    self.navigationController?.setNavigationBarHidden(true, animated: true)
+//  }
   
   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
     _ = self.navigationController?.popViewController(animated: true)

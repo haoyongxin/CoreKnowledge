@@ -13,20 +13,22 @@ class SerialDispatchQueueViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.view.backgroundColor = UIColor.white
-    
+    if let gesture = self.navigationController?.interactivePopGestureRecognizer {
+      print("hidden---gesture:",gesture.isEnabled)
+    }
   }
   
-  override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    self.navigationController?.setNavigationBarHidden(true, animated: true)
-  }
+//  override func viewWillAppear(_ animated: Bool) {
+//    super.viewWillAppear(animated)
+//    self.navigationController?.setNavigationBarHidden(true, animated: true)
+//  }
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
   
-  override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-    _ = self.navigationController?.popViewController(animated: true)
-  }
+//  override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+//    _ = self.navigationController?.popViewController(animated: true)
+//  }
   
 }

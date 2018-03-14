@@ -13,6 +13,7 @@ class CKTabbarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
+        self.delegate = self
         self.installSubViewController()
     }
   
@@ -59,4 +60,10 @@ class CKTabbarViewController: UITabBarController {
         super.didReceiveMemoryWarning()
     }
 
+}
+
+extension CKTabbarViewController: UITabBarControllerDelegate {
+  func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+    print("tabBarController: --->",viewController)
+  }
 }
