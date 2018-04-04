@@ -13,6 +13,7 @@ class CKNavigationController: UINavigationController, UINavigationControllerDele
   override func viewDidLoad() {
     super.viewDidLoad()
     self.view.backgroundColor = UIColor.white
+    self.navigationBar.isTranslucent = true
     self.delegate = self
   }
   
@@ -35,7 +36,7 @@ class CKNavigationController: UINavigationController, UINavigationControllerDele
   
   // MARK: UINavigationControllerDelegate
   func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
-    print("willShow:",viewController)
+//    print("willShow:",viewController)
     if viewController.isKind(of: KCThreadMainViewController.self) || viewController.isKind(of: SerialDispatchQueueViewController.self) || viewController.isKind(of: ConcurrentDispatchQueueViewController.self) {
       if !self.isNavigationBarHidden {
         navigationController.setNavigationBarHidden(true, animated: animated)
@@ -48,7 +49,7 @@ class CKNavigationController: UINavigationController, UINavigationControllerDele
   }
   
   func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
-    print("didShow:",viewController)
+//    print("didShow:",viewController)
   }
   
 }

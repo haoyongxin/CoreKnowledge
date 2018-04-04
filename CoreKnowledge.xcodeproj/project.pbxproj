@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		594A3EE72064D9EE00DE222F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961AC2220511698006C5A88 /* LaunchScreen.storyboard */; };
+		594A3EE82064D9FF00DE222F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961AC1D20511698006C5A88 /* Main.storyboard */; };
+		5957D34820591F7B002961BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957D34720591F7B002961BB /* UIKit.framework */; };
+		5957D34A20591F84002961BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957D34920591F84002961BB /* Foundation.framework */; };
+		5957D34C20591F8D002961BB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957D34B20591F8D002961BB /* CoreFoundation.framework */; };
+		5957D34E20591F94002961BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957D34D20591F94002961BB /* SystemConfiguration.framework */; };
+		5957D35020591FA6002961BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957D34F20591FA6002961BB /* CoreGraphics.framework */; };
 		5961AC1A20511698006C5A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC1920511698006C5A88 /* AppDelegate.swift */; };
 		5961AC1C20511698006C5A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC1B20511698006C5A88 /* ViewController.swift */; };
-		5961AC1F20511698006C5A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961AC1D20511698006C5A88 /* Main.storyboard */; };
-		5961AC2120511698006C5A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5961AC2020511698006C5A88 /* Assets.xcassets */; };
-		5961AC2420511698006C5A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961AC2220511698006C5A88 /* LaunchScreen.storyboard */; };
 		5961AC2F20511698006C5A88 /* CoreKnowledgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC2E20511698006C5A88 /* CoreKnowledgeTests.swift */; };
 		5961AC3A20511698006C5A88 /* CoreKnowledgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC3920511698006C5A88 /* CoreKnowledgeUITests.swift */; };
 		5961AC4A20512540006C5A88 /* CKTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC4920512540006C5A88 /* CKTabbarViewController.swift */; };
@@ -20,10 +24,19 @@
 		5961AC5720512862006C5A88 /* KCAnimationMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5620512862006C5A88 /* KCAnimationMainViewController.swift */; };
 		5961AC5920512888006C5A88 /* KCComponentMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5820512888006C5A88 /* KCComponentMainViewController.swift */; };
 		5961AC5B20512896006C5A88 /* KCOtherMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */; };
+		5962509020730D8D006FC36F /* AudioPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5962508F20730D8D006FC36F /* AudioPlaybackViewController.swift */; };
+		5962509220730E3E006FC36F /* KCOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5962509120730E3E006FC36F /* KCOtherCell.swift */; };
+		5962509420730E56006FC36F /* KCOtherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5962509320730E56006FC36F /* KCOtherModel.swift */; };
+		5962509620731719006FC36F /* KCModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5962509520731719006FC36F /* KCModelCreator.swift */; };
+		5962509820737927006FC36F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5962509720737927006FC36F /* MediaPlayer.framework */; };
 		598A910F2057AD4400CD884B /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A910E2057AD4400CD884B /* GCDViewController.swift */; };
 		598A91112057AD5400CD884B /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91102057AD5400CD884B /* OperationQueueViewController.swift */; };
 		598A91132057C1DB00CD884B /* SerialDispatchQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */; };
 		598A91152057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91142057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift */; };
+		59A20C722071CBC900E72B7F /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A20C712071CBC900E72B7F /* RecordingViewController.swift */; };
+		59A20C742071CBE900E72B7F /* PlayRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A20C732071CBE900E72B7F /* PlayRecordViewController.swift */; };
+		59A20C762071CC1900E72B7F /* AudioPlaybackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A20C752071CC1900E72B7F /* AudioPlaybackManager.swift */; };
+		59A20C782071CC5300E72B7F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A20C772071CC5300E72B7F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5957D34720591F7B002961BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5957D34920591F84002961BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5957D34B20591F8D002961BB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5957D34D20591F94002961BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5957D34F20591FA6002961BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5957D35120591FB5002961BB /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		5961AC1620511698006C5A88 /* CoreKnowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreKnowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5961AC1920511698006C5A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5961AC1B20511698006C5A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5961AC1E20511698006C5A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5961AC2020511698006C5A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5961AC2320511698006C5A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5961AC2520511698006C5A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5961AC2A20511698006C5A88 /* CoreKnowledgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreKnowledgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +81,19 @@
 		5961AC5620512862006C5A88 /* KCAnimationMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCAnimationMainViewController.swift; sourceTree = "<group>"; };
 		5961AC5820512888006C5A88 /* KCComponentMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCComponentMainViewController.swift; sourceTree = "<group>"; };
 		5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCOtherMainViewController.swift; sourceTree = "<group>"; };
+		5962508F20730D8D006FC36F /* AudioPlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackViewController.swift; sourceTree = "<group>"; };
+		5962509120730E3E006FC36F /* KCOtherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCOtherCell.swift; sourceTree = "<group>"; };
+		5962509320730E56006FC36F /* KCOtherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCOtherModel.swift; sourceTree = "<group>"; };
+		5962509520731719006FC36F /* KCModelCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCModelCreator.swift; sourceTree = "<group>"; };
+		5962509720737927006FC36F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		598A910E2057AD4400CD884B /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		598A91102057AD5400CD884B /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDispatchQueueViewController.swift; sourceTree = "<group>"; };
 		598A91142057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentDispatchQueueViewController.swift; sourceTree = "<group>"; };
+		59A20C712071CBC900E72B7F /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		59A20C732071CBE900E72B7F /* PlayRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRecordViewController.swift; sourceTree = "<group>"; };
+		59A20C752071CC1900E72B7F /* AudioPlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackManager.swift; sourceTree = "<group>"; };
+		59A20C772071CC5300E72B7F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +101,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5962509820737927006FC36F /* MediaPlayer.framework in Frameworks */,
+				59A20C782071CC5300E72B7F /* AVFoundation.framework in Frameworks */,
+				5957D35020591FA6002961BB /* CoreGraphics.framework in Frameworks */,
+				5957D34E20591F94002961BB /* SystemConfiguration.framework in Frameworks */,
+				5957D34C20591F8D002961BB /* CoreFoundation.framework in Frameworks */,
+				5957D34A20591F84002961BB /* Foundation.framework in Frameworks */,
+				5957D34820591F7B002961BB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +128,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5957D34620591F7A002961BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5962509720737927006FC36F /* MediaPlayer.framework */,
+				59A20C772071CC5300E72B7F /* AVFoundation.framework */,
+				5957D35120591FB5002961BB /* CoreNFC.framework */,
+				5957D34F20591FA6002961BB /* CoreGraphics.framework */,
+				5957D34D20591F94002961BB /* SystemConfiguration.framework */,
+				5957D34B20591F8D002961BB /* CoreFoundation.framework */,
+				5957D34920591F84002961BB /* Foundation.framework */,
+				5957D34720591F7B002961BB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5961AC0D20511698006C5A88 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +150,7 @@
 				5961AC2D20511698006C5A88 /* CoreKnowledgeTests */,
 				5961AC3820511698006C5A88 /* CoreKnowledgeUITests */,
 				5961AC1720511698006C5A88 /* Products */,
+				5957D34620591F7A002961BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,7 +173,6 @@
 				5961AC1B20511698006C5A88 /* ViewController.swift */,
 				5961AC1920511698006C5A88 /* AppDelegate.swift */,
 				5961AC1D20511698006C5A88 /* Main.storyboard */,
-				5961AC2020511698006C5A88 /* Assets.xcassets */,
 				5961AC2220511698006C5A88 /* LaunchScreen.storyboard */,
 				5961AC2520511698006C5A88 /* Info.plist */,
 			);
@@ -205,6 +254,10 @@
 			isa = PBXGroup;
 			children = (
 				5961AC5A20512896006C5A88 /* KCOtherMainViewController.swift */,
+				5962509120730E3E006FC36F /* KCOtherCell.swift */,
+				5962509320730E56006FC36F /* KCOtherModel.swift */,
+				5962509520731719006FC36F /* KCModelCreator.swift */,
+				59A20C702071CB8800E72B7F /* AudioPlayback */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -225,6 +278,17 @@
 				598A91102057AD5400CD884B /* OperationQueueViewController.swift */,
 			);
 			path = OperationQueue;
+			sourceTree = "<group>";
+		};
+		59A20C702071CB8800E72B7F /* AudioPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				5962508F20730D8D006FC36F /* AudioPlaybackViewController.swift */,
+				59A20C712071CBC900E72B7F /* RecordingViewController.swift */,
+				59A20C732071CBE900E72B7F /* PlayRecordViewController.swift */,
+				59A20C752071CC1900E72B7F /* AudioPlaybackManager.swift */,
+			);
+			path = AudioPlayback;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,9 +398,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5961AC2420511698006C5A88 /* LaunchScreen.storyboard in Resources */,
-				5961AC2120511698006C5A88 /* Assets.xcassets in Resources */,
-				5961AC1F20511698006C5A88 /* Main.storyboard in Resources */,
+				594A3EE82064D9FF00DE222F /* Main.storyboard in Resources */,
+				594A3EE72064D9EE00DE222F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,16 +425,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				598A91132057C1DB00CD884B /* SerialDispatchQueueViewController.swift in Sources */,
+				59A20C742071CBE900E72B7F /* PlayRecordViewController.swift in Sources */,
+				59A20C762071CC1900E72B7F /* AudioPlaybackManager.swift in Sources */,
 				5961AC4A20512540006C5A88 /* CKTabbarViewController.swift in Sources */,
+				5962509620731719006FC36F /* KCModelCreator.swift in Sources */,
+				59A20C722071CBC900E72B7F /* RecordingViewController.swift in Sources */,
 				5961AC552051284E006C5A88 /* KCThreadMainViewController.swift in Sources */,
 				598A91112057AD5400CD884B /* OperationQueueViewController.swift in Sources */,
+				5962509220730E3E006FC36F /* KCOtherCell.swift in Sources */,
 				5961AC4C20512568006C5A88 /* CKNavigationController.swift in Sources */,
 				5961AC5920512888006C5A88 /* KCComponentMainViewController.swift in Sources */,
 				5961AC1C20511698006C5A88 /* ViewController.swift in Sources */,
 				5961AC5720512862006C5A88 /* KCAnimationMainViewController.swift in Sources */,
 				5961AC5B20512896006C5A88 /* KCOtherMainViewController.swift in Sources */,
+				5962509020730D8D006FC36F /* AudioPlaybackViewController.swift in Sources */,
 				598A91152057C1F400CD884B /* ConcurrentDispatchQueueViewController.swift in Sources */,
 				5961AC1A20511698006C5A88 /* AppDelegate.swift in Sources */,
+				5962509420730E56006FC36F /* KCOtherModel.swift in Sources */,
 				598A910F2057AD4400CD884B /* GCDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

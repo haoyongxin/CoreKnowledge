@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CoreKnowledge.xcscheme</key>
+		<key>Copy of CoreKnowledge.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>CoreKnowledge.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5961AC1520511698006C5A88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5961AC2920511698006C5A88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5961AC3420511698006C5A88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

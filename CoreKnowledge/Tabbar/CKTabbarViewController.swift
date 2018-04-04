@@ -64,6 +64,6 @@ class CKTabbarViewController: UITabBarController {
 
 extension CKTabbarViewController: UITabBarControllerDelegate {
   func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-    print("tabBarController: --->",viewController)
+//    print("tabBarController: --->",viewController)
   }
 }

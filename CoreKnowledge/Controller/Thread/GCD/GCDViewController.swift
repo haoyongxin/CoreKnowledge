@@ -31,7 +31,7 @@ class GCDViewController: UIViewController {
   }
   
   @objc func backAction() {
-    
+    _ = self.navigationController?.popViewController(animated: true)
   }
   
   func installButtons() {
