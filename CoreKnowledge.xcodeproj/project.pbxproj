@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D269147408F1FB61E892AA /* Pods_CoreKnowledge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D09D655BF29213F25DEDBA /* Pods_CoreKnowledge.framework */; };
 		594A3EE72064D9EE00DE222F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961AC2220511698006C5A88 /* LaunchScreen.storyboard */; };
 		594A3EE82064D9FF00DE222F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961AC1D20511698006C5A88 /* Main.storyboard */; };
 		5957D34820591F7B002961BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957D34720591F7B002961BB /* UIKit.framework */; };
@@ -29,6 +30,8 @@
 		5962509420730E56006FC36F /* KCOtherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5962509320730E56006FC36F /* KCOtherModel.swift */; };
 		5962509620731719006FC36F /* KCModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5962509520731719006FC36F /* KCModelCreator.swift */; };
 		5962509820737927006FC36F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5962509720737927006FC36F /* MediaPlayer.framework */; };
+		597FBDEB2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FBDEA2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift */; };
+		597FBDED2079C19B0096C6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597FBDEC2079C19B0096C6C9 /* Assets.xcassets */; };
 		598A910F2057AD4400CD884B /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A910E2057AD4400CD884B /* GCDViewController.swift */; };
 		598A91112057AD5400CD884B /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91102057AD5400CD884B /* OperationQueueViewController.swift */; };
 		598A91132057C1DB00CD884B /* SerialDispatchQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */; };
@@ -57,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26D09D655BF29213F25DEDBA /* Pods_CoreKnowledge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreKnowledge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5623C6BA610D9D2E24CFF19F /* Pods-CoreKnowledge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreKnowledge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreKnowledge/Pods-CoreKnowledge.debug.xcconfig"; sourceTree = "<group>"; };
 		5957D34720591F7B002961BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5957D34920591F84002961BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5957D34B20591F8D002961BB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +91,8 @@
 		5962509320730E56006FC36F /* KCOtherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCOtherModel.swift; sourceTree = "<group>"; };
 		5962509520731719006FC36F /* KCModelCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCModelCreator.swift; sourceTree = "<group>"; };
 		5962509720737927006FC36F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		597FBDEA2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKViewControllerAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		597FBDEC2079C19B0096C6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		598A910E2057AD4400CD884B /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		598A91102057AD5400CD884B /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDispatchQueueViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +101,7 @@
 		59A20C732071CBE900E72B7F /* PlayRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRecordViewController.swift; sourceTree = "<group>"; };
 		59A20C752071CC1900E72B7F /* AudioPlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackManager.swift; sourceTree = "<group>"; };
 		59A20C772071CC5300E72B7F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E97BEDF736C559EAC2866909 /* Pods-CoreKnowledge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreKnowledge.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreKnowledge/Pods-CoreKnowledge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 				5957D34C20591F8D002961BB /* CoreFoundation.framework in Frameworks */,
 				5957D34A20591F84002961BB /* Foundation.framework in Frameworks */,
 				5957D34820591F7B002961BB /* UIKit.framework in Frameworks */,
+				31D269147408F1FB61E892AA /* Pods_CoreKnowledge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +148,7 @@
 				5957D34B20591F8D002961BB /* CoreFoundation.framework */,
 				5957D34920591F84002961BB /* Foundation.framework */,
 				5957D34720591F7B002961BB /* UIKit.framework */,
+				26D09D655BF29213F25DEDBA /* Pods_CoreKnowledge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +161,7 @@
 				5961AC3820511698006C5A88 /* CoreKnowledgeUITests */,
 				5961AC1720511698006C5A88 /* Products */,
 				5957D34620591F7A002961BB /* Frameworks */,
+				8D51633C5DA8E2ED876ECAE0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +186,7 @@
 				5961AC1D20511698006C5A88 /* Main.storyboard */,
 				5961AC2220511698006C5A88 /* LaunchScreen.storyboard */,
 				5961AC2520511698006C5A88 /* Info.plist */,
+				597FBDEC2079C19B0096C6C9 /* Assets.xcassets */,
 			);
 			path = CoreKnowledge;
 			sourceTree = "<group>";
@@ -209,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				5961AC4B20512568006C5A88 /* CKNavigationController.swift */,
+				597FBDEA2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -291,6 +304,15 @@
 			path = AudioPlayback;
 			sourceTree = "<group>";
 		};
+		8D51633C5DA8E2ED876ECAE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5623C6BA610D9D2E24CFF19F /* Pods-CoreKnowledge.debug.xcconfig */,
+				E97BEDF736C559EAC2866909 /* Pods-CoreKnowledge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -298,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5961AC3E20511698006C5A88 /* Build configuration list for PBXNativeTarget "CoreKnowledge" */;
 			buildPhases = (
+				B6A7DB93A71C6CC92566299B /* [CP] Check Pods Manifest.lock */,
 				5961AC1220511698006C5A88 /* Sources */,
 				5961AC1320511698006C5A88 /* Frameworks */,
 				5961AC1420511698006C5A88 /* Resources */,
+				A6597B09E4FF0D2EA5F95D51 /* [CP] Embed Pods Frameworks */,
+				5F8B91EBF12B1782FCEDFB6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -399,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				594A3EE82064D9FF00DE222F /* Main.storyboard in Resources */,
+				597FBDED2079C19B0096C6C9 /* Assets.xcassets in Resources */,
 				594A3EE72064D9EE00DE222F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +445,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F8B91EBF12B1782FCEDFB6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreKnowledge/Pods-CoreKnowledge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6597B09E4FF0D2EA5F95D51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoreKnowledge/Pods-CoreKnowledge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreKnowledge/Pods-CoreKnowledge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A7DB93A71C6CC92566299B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreKnowledge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5961AC1220511698006C5A88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -435,6 +527,7 @@
 				5962509220730E3E006FC36F /* KCOtherCell.swift in Sources */,
 				5961AC4C20512568006C5A88 /* CKNavigationController.swift in Sources */,
 				5961AC5920512888006C5A88 /* KCComponentMainViewController.swift in Sources */,
+				597FBDEB2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift in Sources */,
 				5961AC1C20511698006C5A88 /* ViewController.swift in Sources */,
 				5961AC5720512862006C5A88 /* KCAnimationMainViewController.swift in Sources */,
 				5961AC5B20512896006C5A88 /* KCOtherMainViewController.swift in Sources */,
@@ -606,6 +699,7 @@
 		};
 		5961AC3F20511698006C5A88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5623C6BA610D9D2E24CFF19F /* Pods-CoreKnowledge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -622,6 +716,7 @@
 		};
 		5961AC4020511698006C5A88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97BEDF736C559EAC2866909 /* Pods-CoreKnowledge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

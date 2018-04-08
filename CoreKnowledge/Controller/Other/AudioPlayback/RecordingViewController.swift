@@ -15,7 +15,7 @@ class RecordingViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.title = "录音"
-    self.view.backgroundColor = UIColor.white
+    self.view.backgroundColor = UIColor.yellow
     audioManager.delegate = self
     recordButton = UIButton(frame: CGRect(x: 100, y:self.view.frame.height - 150, width: self.view.frame.width - 200, height: 50))
     recordButton.setTitle("按住 说话", for: .normal)

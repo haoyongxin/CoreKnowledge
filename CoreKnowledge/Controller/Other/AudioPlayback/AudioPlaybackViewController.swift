@@ -13,7 +13,7 @@ class AudioPlaybackViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.title = "录音及播放音频"
-    self.view.backgroundColor = UIColor.white
+    self.view.backgroundColor = UIColor.red
     let recordButton = UIButton(frame: CGRect(x: 10, y: 100, width: 100, height: 50))
     recordButton.setTitle("录音", for: .normal)
     recordButton.setTitleColor(UIColor.black, for: .normal)
@@ -36,7 +36,7 @@ class AudioPlaybackViewController: UIViewController {
     switch button.tag {
     case 100:
       let recordVC = RecordingViewController()
-      self.navigationController?.pushViewController(recordVC, animated: true)
+      self.navigationController?.pushViewController(recordVC, animated: false)
       break
     case 200:
       let playVC = PlayRecordViewController()

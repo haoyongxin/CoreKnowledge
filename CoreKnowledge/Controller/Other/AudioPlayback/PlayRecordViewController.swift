@@ -13,7 +13,7 @@ class PlayRecordViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.title = "播放音频"
-    self.view.backgroundColor = UIColor.white
+    self.view.backgroundColor = UIColor.green
   }
   
   override func didReceiveMemoryWarning() {
