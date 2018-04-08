@@ -32,6 +32,7 @@
 		5962509820737927006FC36F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5962509720737927006FC36F /* MediaPlayer.framework */; };
 		597FBDEB2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FBDEA2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift */; };
 		597FBDED2079C19B0096C6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597FBDEC2079C19B0096C6C9 /* Assets.xcassets */; };
+		597FBDEF2079F9810096C6C9 /* CKInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FBDEE2079F9810096C6C9 /* CKInteractiveTransition.swift */; };
 		598A910F2057AD4400CD884B /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A910E2057AD4400CD884B /* GCDViewController.swift */; };
 		598A91112057AD5400CD884B /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91102057AD5400CD884B /* OperationQueueViewController.swift */; };
 		598A91132057C1DB00CD884B /* SerialDispatchQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */; };
@@ -93,6 +94,7 @@
 		5962509720737927006FC36F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		597FBDEA2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKViewControllerAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		597FBDEC2079C19B0096C6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		597FBDEE2079F9810096C6C9 /* CKInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKInteractiveTransition.swift; sourceTree = "<group>"; };
 		598A910E2057AD4400CD884B /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		598A91102057AD5400CD884B /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		598A91122057C1DB00CD884B /* SerialDispatchQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDispatchQueueViewController.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 			children = (
 				5961AC4B20512568006C5A88 /* CKNavigationController.swift */,
 				597FBDEA2079B04E0096C6C9 /* CKViewControllerAnimatedTransitioning.swift */,
+				597FBDEE2079F9810096C6C9 /* CKInteractiveTransition.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				598A91132057C1DB00CD884B /* SerialDispatchQueueViewController.swift in Sources */,
 				59A20C742071CBE900E72B7F /* PlayRecordViewController.swift in Sources */,
 				59A20C762071CC1900E72B7F /* AudioPlaybackManager.swift in Sources */,
+				597FBDEF2079F9810096C6C9 /* CKInteractiveTransition.swift in Sources */,
 				5961AC4A20512540006C5A88 /* CKTabbarViewController.swift in Sources */,
 				5962509620731719006FC36F /* KCModelCreator.swift in Sources */,
 				59A20C722071CBC900E72B7F /* RecordingViewController.swift in Sources */,
