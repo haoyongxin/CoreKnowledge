@@ -9,17 +9,19 @@
 import UIKit
 
 class CKNavigationController: UINavigationController, UINavigationControllerDelegate {
-  
+  var interactiveTransition: CKInteractiveTransition!
   override func viewDidLoad() {
     super.viewDidLoad()
     self.view.backgroundColor = UIColor.white
     self.navigationBar.isTranslucent = true
     self.delegate = self
+//    print("interactivePopGestureRecognizer:",self.interactivePopGestureRecognizer as Any)
+    self.interactivePopGestureRecognizer?.isEnabled = false
+    self.interactiveTransition = CKInteractiveTransition(type: .Pop, viewController: self)
   }
   
   override func setNavigationBarHidden(_ hidden: Bool, animated: Bool) {
-//    print("delegate:",self.interactivePopGestureRecognizer?.delegate as Any)
-    self.interactivePopGestureRecognizer?.delegate = nil
+    
     super.setNavigationBarHidden(hidden, animated: animated)
   }
   
@@ -53,7 +55,7 @@ class CKNavigationController: UINavigationController, UINavigationControllerDele
   }
   
   func navigationController(_ navigationController: UINavigationController, interactionControllerFor animationController: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-    return nil
+    return interactiveTransition.isInteration ? interactiveTransition : nil
   }
   
   func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {

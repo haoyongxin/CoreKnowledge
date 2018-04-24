@@ -18,8 +18,9 @@ class KCModelCreator: NSObject {
   
   func otherModels() -> Array<KCOtherModel> {
     var modelArray = Array<KCOtherModel>()
-    modelArray.append(createAudioPlayback())
-    modelArray.append(createAudioPlayback())
+    for _ in 0...20 {
+      modelArray.append(createAudioPlayback())
+    }
     return modelArray
   }
   

@@ -22,7 +22,7 @@ class CKViewControllerAnimatedTransitioning: NSObject, UIViewControllerAnimatedT
   }
   
   func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-    return 10.0
+    return 1.0
   }
   
   func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {

@@ -6,7 +6,7 @@ inhibit_all_warnings!
   pod 'MJRefresh', '~> 2.4.10'
   pod 'AFNetworking', '~> 3.2.0'
   pod 'pop', '~> 1.0.8'
-  pod 'FDFullscreenPopGesture', '~> 1.1'
+#  pod 'FDFullscreenPopGesture', '~> 1.1'
   pod 'SDWebImage', '~> 3.7.3'
   pod 'FMDB', '~> 2.5'
   pod 'Reachability', '~> 3.2'

@@ -50,6 +50,20 @@ class KCThreadMainViewController: UIViewController {
     super.didReceiveMemoryWarning()
   }
   
+  override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    if let tabbar = self.tabBarController {
+      if let touch = touches.first {
+        if touch.tapCount == 1 {
+          let view = tabbar.view
+          view?.transform = CGAffineTransform.init(scaleX: 0.90, y: 0.90)
+        } else {
+          let view = tabbar.view
+          view?.transform = CGAffineTransform.identity
+        }
+      }
+    }
+  }
+  
 }
 
 class CustomThreadButton: UIButton {
